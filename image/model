@@ -1,0 +1,15 @@
+digraph G {
+	overlap=scale splines=true
+	edge [fontsize=12]
+	node [fillcolor="#cae6df" shape=circle style=filled]
+	node [shape=box style=""]
+	d [label=d]
+	e [label=e]
+	a [label=a]
+	b [label=b]
+	z [label=z]
+	a -> z [label="0.994\np-val: 0.00"]
+	b -> z [label="1.009\np-val: 0.00"]
+	z -> d [label="0.994\np-val: 0.00"]
+	z -> e [label="1.017\np-val: 0.00"]
+}
